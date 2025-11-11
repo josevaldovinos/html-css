@@ -1,0 +1,98 @@
+/* .parent {
+    border: 5px solid #000;
+    width: 250px;
+    height: 500px;
+    box-sizing: border-box;
+    position: relative;
+    background: #fff;
+}
+
+.container {
+    background: #09f;
+    width: 150px;
+    height: 150px;
+    position: fixed;
+    right: 0;
+    z-index: 10;
+} */
+
+/* body {
+    background: rgb(188, 228, 255);
+    padding-top: 200px;
+}
+
+div {
+    border: 1px;
+    opacity: 0.9;
+    width: 200px;
+    height: 200px;
+    margin-top: -100px;
+    box-shadow: 0 0 5px #000000dd;
+    position: relative;
+}
+
+div:first-child {
+    background: yellow;
+    z-index: 1;
+}
+
+div:nth-child(2) {
+    background: #09f;
+    z-index: 2;
+}
+div:last-child {
+    background: red;
+    z-index: 3;
+} */
+body {
+}
+
+.parent {
+    display: flex;
+    /* direction: rtl; */
+    /* writing-mode: vertical-lr; */
+    flex-flow: row wrap; /* <-- eje principal*/
+    border: 4px solid #000;
+    width: 250px;
+    height: 500px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 16px;
+}
+
+.item {
+    border: 1px solid;
+    box-sizing: border-box;
+    opacity: 0.9;
+    height: 50px;
+    width: 50px;
+    /* background: #09f; */
+    /* flex: 1; */
+
+    /* Valores por defecto */
+    /*flex-grow: 1;*/ /* Por defecto: los elementos NO crecen*/
+    /*flex-shrink: 1;*/ /* Por defecto: los elementos pueden reducir su tamaño a un tamaño más pequeño que su flex basis*/
+    /*flex-basis: auto;*/ /* Por defecto: el tamaño inicial del elemento se basa en su contenido */
+}
+
+.item:first-child {
+    background: yellow;
+    /* flex: 4; */
+    /* order: 3; */
+    height: 25px;
+}
+
+.item:nth-child(2) {
+    background: blue;
+    /* flex: 2; */
+    /* order: 1; */
+    height: 30px;
+}
+
+.item:last-child {
+    background: red;
+    /* order: 2; */
+    height: 40px;
+}

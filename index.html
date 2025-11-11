@@ -2,244 +2,32 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <!-- Codificación-->
-        <meta name="viewport" content="width=device-width" , initial-scale="1.0" />
-        <!-- Codificación-->
-        <title>Portfolio JoseValdovinos</title>
-
-        <meta
-            name="description"
-            content="Portfolio de Jose Valdovinos, Ingeniero de Software con 15 años de experiencia como ingeniero de Software."
-        />
-
-        <!-- OPEN GRAPH -->
-        <meta property="og:title" content="Portfolio de un ingeniero de software" />
-        <meta
-            property="og:description"
-            content="Portfolio de Jose Valdovinos, Ingeniero de Software con 15 años de experiencia como ingeniero de Software."
-        />
-        <meta property="og:image" content="./images/foto.jpg" />
-        <meta property="og:image:alt" content="Una fotografía de Jose Valdovinos Vega" />
-
-        <link rel="alternate" href="https://midu.dev/en" hreflang="es-GB" />
-        <link rel="canonical" href="https://midu.dev" />
-
-        <meta name="robots" content="index, follow" />
-        <meta name="theme-color" content="#09f" />
-
-        <link rel="icon" type="imgage/jgp" href="./images/foto.jpg" />
-
-        <style>
-            body {
-                background: rgb(213, 236, 251);
-            }
-        </style>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>¡APRENDE CSS GRATIS! Curso de CSS desde cero para principiantes</title>
+        <link rel="stylesheet" href="/styles.css" />
     </head>
     <body>
-        <header>
-            <h1>Portfolio de @JoseValdovinos 👨‍💻</h1>
+        <!-- <span>Esto es un texto, </span> 
+        <div class="container">Funca!</div>
+        <div class="container">Funca!</div> -->
 
-            <!-- <iframe
-                style="width: 100%; aspect-ratio: 16/9"
-                src="https://www.youtube.com/embed/YK4aXQeKjNs?si=XttUU8O313ZlQyvz"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin"
-                allowfullscreen
-            ></iframe> -->
+        <!-- <section class="parent">
+            <div class="container">container</div>
+        </section>
+        <section class="parent">
+            <div class="container">container</div>
+        </section>
+        <section class="parent">
+            <div class="container">container</div>
+        </section>
+        <section class="parent">
+            <div class="container">container</div>
+        </section> -->
 
-            <nav>
-                <a href="#experiencia">Experiencia</a>
-                <a href="#proyectos">Proyectos</a>
-                <!--Enlaces internos-->
-                <a href="https://twitch.tv/midudev" target="_blank" rel="noreferrer">Twitch</a>
-            </nav>
-        </header>
-
-        <dialog id="modal">
-            <h1>¿Sabias que puedes abrir una modal así?</h1>
-            <p>¡Y es totalmente nativo!</p>
-            <button id="hide">Cerrar modal</button>
-        </dialog>
-
-        <button id="show">Ver mas información</button>
-
-        <script>
-            window.show.addEventListener('click', () => {
-                window.modal.showModal();
-            });
-
-            window.hide.addEventListener('click', () => {
-                window.modal.close();
-            });
-        </script>
-
-        <!-- <audio controls src="https://download.samplelib.com/mp3/sample-15s.mp3"></audio>
-
-        <video autoplay loop muted controls src="https://filesamples.com/samples/video/mp4/sample_960x400_ocean_with_audio.mp4"></video> -->
-
-        <main>
-            <p>15 años de experiencia como <strong>Ingeniero de Software</strong>. Creador y divulgador de programación.</p>
-
-            <h2 id="experiencia">Expriencia</h2>
-            <ul>
-                <li class="list-item">Adevinta - 2022</li>
-                <li class="list-item">Hubii - 2020</li>
-                <li class="list-item">Nacencia - 2015</li>
-            </ul>
-            <a download href="./images/foto.jpg">
-                <img
-                    id="photo-image"
-                    width="200"
-                    height="200"
-                    title="Foto de José Valdovinos"
-                    alt="Una fotografía de José Valdovinos muy serio y fue tomada el día que fue a concursar a Puerto Vallarta en el Eneit"
-                    src="./images/foto.jpg"
-                />
-            </a>
-
-            <h2 id="proyectos">Proyectos realizados</h2>
-
-            <aside>
-                <header>
-                    <h3>Mis Tecnologías favoritas</h3>
-                </header>
-                <ol type="1" reversed start="10">
-                    <li value="5">HTML</li>
-                    <li>CSS</li>
-                    <li>Javascript</li>
-                    <li>Node.js</li>
-                </ol>
-            </aside>
-
-            <button>Haz clic aquí</button>
-
-            <section>
-                <article>
-                    <header>
-                        <h4>La página de Tesla</h4>
-                        <img
-                            style="width: 100%; aspect-ratio: 3802/1823"
-                            loading="lazy"
-                            src="./images/tesla.jpg"
-                            alt="captura de pantalla de la página de Tesla"
-                        />
-                    </header>
-                    <p>Desarrollo de un sitio web de la marca de carros eléctricos Tesla</p>
-                    <footer>
-                        <small> Tecnologías utilizadas: HTML, CSS, JavaScript </small>
-                    </footer>
-                </article>
-            </section>
-            <section>
-                <article>
-                    <header>
-                        <h4>Aplicación web de E-Comerce</h4>
-                    </header>
-                    <p>Creaciónm de una plataforma de comercio electrónico para una tienda local.</p>
-                    <footer>
-                        <small> Tecnologías utilizadas: React, Node.js, MongoDB </small>
-                    </footer>
-                </article>
-            </section>
-            <section>
-                <article>
-                    <header>
-                        <h4>Aplicación Móvil de rastreo de Fitness</h4>
-                    </header>
-                    <p>Creaciónm de una plataforma de comercio electrónico para una tienda local.</p>
-                    <footer>
-                        <small> Tecnologías utilizadas: React, Node.js, MongoDB </small>
-                    </footer>
-                </article>
-            </section>
-
-            <section>
-                <h2>Preguntas frecuentes</h2>
-
-                <details open>
-                    <summary>¿Qué estudiaste?</summary>
-                    <p>Estudié en el Instituto Tecnológico de Ciudad Guzmán en la Ingeniería en Sistemas Computacionales durante 5 años</p>
-                </details>
-                <details>
-                    <summary>¿Cuales son tus hobbies?</summary>
-                    <p>Me gusta mucho ver series y escuchar música, también me gusta mucho practicar el running.</p>
-                </details>
-                <details>
-                    <summary>¿Cual es tu lenguaje pavorito?</summary>
-                    <p>M encanta javascript, es un lenguaje muy versátil con el cual se pueden hacer muchas cosas.</p>
-                </details>
-            </section>
-
-            <section>
-                <h2>Formulario de contacto</h2>
-                <form method="post" action="/">
-                    <fieldset>
-                        <legend>Información personal</legend>
-
-                        <div>
-                            <label
-                                >Nombre:
-                                <input type="text" name="name" placeholder="Jose Valdovinos" required />
-                            </label>
-                        </div>
-
-                        <label
-                            >Email:
-                            <input type="email" name="email" placeholder="jose@gmail.com" required />
-                        </label>
-                    </fieldset>
-                    <fieldset>
-                        <legend>Información adicional</legend>
-
-                        <div>
-                            <label
-                                >Teléfono:
-                                <input type="tel" name="telefono" placeholder="4531194534" required pattern="[2-9]{9}" />
-                            </label>
-                        </div>
-                    </fieldset>
-                    <fieldset>
-                        <legend>Otros</legend>
-
-                        <div>
-                            <label for="why">Por que quieres contactar?</label>
-                            <select id="why" name="why">
-                                <option value="1">Trabajo</option>
-                                <option value="2">Duda</option>
-                                <option value="3">Más información</option>
-                            </select>
-                        </div>
-
-                        <div>
-                            <label for="terms">¿Aceptas los términos?</label>
-                            <input type="checkbox" id="terms" required />
-                        </div>
-
-                        <div>
-                            <datalist id="languages">
-                                <option value="Javascript"></option>
-                                <option value="Python"></option>
-                                <option value="Java"></option>
-                                <option value="C#"></option>
-                            </datalist>
-                            <label for="">¿Con qué lenguaje quieres que te ayude?</label>
-                            <input list="languages" name="languages" />
-                        </div>
-
-                        <input type="submit" value="Enviar contacto" />
-                        <button>Enviar contacto</button>
-                    </fieldset>
-                </form>
-            </section>
-        </main>
-        <footer>
-            Copyright &copy; 2025 - El portfolio mas bello del mundo. <br />
-
-            <a href="mailto:chico_che0897@hotmail.com">Enviame un correo</a>
-            <a href="tel:+524531191315">Llamar por telefono</a>
-            <a href="whatsapp://send?text=Hola JoseValdovinos">Mensaje de Whats</a>
-        </footer>
+        <section class="parent">
+            <div class="item">Primero</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+        </section>
     </body>
 </html>
